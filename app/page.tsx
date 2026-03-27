@@ -7,14 +7,14 @@ export default function Home() {
       id: 1,
       name: "KOVEINA Лоферы 090-132",
       price: "25 000",
-      img: "/images/1.jpg", // СУРЕТТІҢ АТЫ ДӘЛ ОСЫЛАЙ БОЛУЫ КЕРЕК
+      img: "/images/313-29/1.jpg", // СУРЕТТІҢ АТЫ ДӘЛ ОСЫЛАЙ БОЛУЫ КЕРЕК
       link: "https://kaspi.kz/shop/p/c-114227913/" // КАСПИЙДЕГІ СІЛТЕМЕСІ
     },
     {
       id: 2,
       name: "KOVEINA Ботинки K-524",
       price: "32 000",
-      img: "/images/2.jpg", // ЕКІНШІ СУРЕТТІҢ АТЫ
+      img: "/images/313-29/2.jpg", // ЕКІНШІ СУРЕТТІҢ АТЫ
       link: "https://kaspi.kz/shop/p/c-114227914/"
     }
   ];

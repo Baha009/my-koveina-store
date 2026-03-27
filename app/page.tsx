@@ -6,15 +6,15 @@ export default function Home() {
     {
       id: 1,
       name: "KOVEINA Лоферы 090-132",
-      price: "25 000",
-      img: "/images/313-29/1.jpg", // СУРЕТТІҢ АТЫ ДӘЛ ОСЫЛАЙ БОЛУЫ КЕРЕК
-      link: "https://kaspi.kz/shop/p/c-114227913/" // КАСПИЙДЕГІ СІЛТЕМЕСІ
+      price: "19 888",
+      img: "/images/313-29/1.jpeg", // СУРЕТТІҢ АТЫ ДӘЛ ОСЫЛАЙ БОЛУЫ КЕРЕК
+      link: "https://kaspi.kz/shop/p/tufli-koveina-313-29-chernyi-40-161997143/" // КАСПИЙДЕГІ СІЛТЕМЕСІ
     },
     {
       id: 2,
       name: "KOVEINA Ботинки K-524",
       price: "32 000",
-      img: "/images/313-29/2.jpg", // ЕКІНШІ СУРЕТТІҢ АТЫ
+      img: "/images/313-29/2.jpeg", // ЕКІНШІ СУРЕТТІҢ АТЫ
       link: "https://kaspi.kz/shop/p/c-114227914/"
     }
   ];
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
 
         <div className="fixed bottom-6 left-0 right-0 px-6 z-50 max-w-[480px] mx-auto">
-          <a href="https://wa.me/77071234567" className="flex items-center justify-center bg-[#25D366] text-white py-4.5 rounded-full font-black shadow-2xl uppercase text-[10px] tracking-widest no-underline">
+          <a href="https://wa.me/77051183038" className="flex items-center justify-center bg-[#25D366] text-white py-4.5 rounded-full font-black shadow-2xl uppercase text-[10px] tracking-widest no-underline">
             WhatsApp-қа жазу
           </a>
         </div>

@@ -68,6 +68,7 @@ const ProductCard = ({ product, onAddToCart }: { product: any, onAddToCart: (p: 
     </div>
   );
 };
+// ... (жоғарғы ImageSlider мен ProductCard өзгеріссіз қалады)
 
 // 3. НЕГІЗГІ БЕТ
 export default function WholesaleStore() {
@@ -81,12 +82,18 @@ export default function WholesaleStore() {
   useEffect(() => {
     setMounted(true);
     const fetchProducts = async () => {
-      const { data, error } = await supabase.from('products').select('*').order('created_at', { ascending: false });
+      // ТҮЗЕТІЛГЕН ЖОЛ: .order('created_at') дегенді алып тастадық
+      const { data, error } = await supabase
+        .from('products')
+        .select('*'); 
+      
       if (data) setProducts(data);
       if (error) console.error("База қатесі:", error.message);
     };
     fetchProducts();
   }, []);
+
+  // ... (қалған код өзгеріссіз қалады)
 
   const handleAddToCart = (product: any) => {
     setCart([...cart, { ...product, cartId: Date.now(), totalSeriesPrice: product.price * product.sizes.length }]);
